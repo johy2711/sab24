@@ -199,6 +199,17 @@ footer{
     }
 }
 
+#volver{
+    .container{
+    background-color: $background-container;
+    
+        #back{
+        font-size: 18px;
+        color: darkblue;
+        } 
+    }
+}       
+
   /***********************************************************************************************************/
 
 /* Tablet */
