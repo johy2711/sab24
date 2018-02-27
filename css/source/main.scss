@@ -74,7 +74,28 @@ header{
 
 $background-container:white;
 $background-prod:white;
+h3{
+    font:{
+         size:25px;
+         weight:bold;
+        } 
+    color:darkblue;
+}
 
+h4{
+    font:{
+         size:18px;
+        } 
+    color:darkblue;
+}
+
+h5{
+    font:{
+         size:25px;
+         weight:bold;
+        } 
+    color:darkslategrey;
+}
 
 #recomendaciones{
     .container{/*NO SE DEBE DE MODIFICAR CONTAINER CREAR UNA CLASE PARA HACER ESO*/
@@ -210,6 +231,68 @@ footer{
     }
 }       
 
+
+#productos{
+    .container{/*NO SE DEBE DE MODIFICAR CONTAINER CREAR UNA CLASE PARA HACER ESO*/
+    background-color: $background-container;
+        
+        .pro{
+        background-color:$background-prod;
+        padding-top: 10px;
+        padding-bottom: 10px;
+            
+             &:last-child{
+                    border-right: 0px;
+            }
+            
+            .img-pro-full{
+                width: 360px;
+                height: 360px;
+                margin-bottom: 10px;
+            }
+            
+            .caracte{
+                font-size: 14px;
+                margin-bottom: 6px;
+                
+                ul{
+                    li{
+                        color:darkblue;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+        
+        .comprar{
+            p{
+                color: red;
+                margin-top: 10px;
+                font:{
+                    size:25px;
+                    weight:bold;
+                } 
+            }
+            .compahora{
+                background-color:darkblue;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                   a{          
+                    color:white;
+                       font:{
+                          size:25px;
+                          weight:bold;
+                       }
+                        
+                        &:hover{ 
+                        color:lightgray;
+                        text-decoration: none;
+                        }
+                    }
+            }            
+        }
+    }
+}
   /***********************************************************************************************************/
 
 /* Tablet */
