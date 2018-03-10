@@ -368,6 +368,8 @@ footer{
             }
          }
     }
+    
+
 }
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 @media screen and (max-width: 768px) {
@@ -445,7 +447,8 @@ footer{
     .container{
         
         .produind{
-                        
+                 border-right: 0px ;
+            
             .img-pro{
                 width: 90%;
                 height: 90%;
@@ -460,7 +463,7 @@ footer{
     .container{
         
         .produind{
-                        
+                   border-right: 0px ;     
             .img-pro{
                 width: 90%;
                 height: 90%;
@@ -476,7 +479,7 @@ footer{
     .container{
         
         .produind{
-                        
+                 border-right: 0px ;       
             .img-pro{
                 width: 90%;
                 height: 90%;
@@ -502,7 +505,7 @@ footer{
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
      
-       header{
+    header{
     
     .logo{
     background-color:white;
@@ -584,6 +587,7 @@ footer{
                 }
           }
       }
+      
       #ofertas{
     .container{        
         .produind{
@@ -611,6 +615,48 @@ footer{
                 }
           }
       }
-    
+    #productos{
+    .container{
+             h5{
+                font:{
+                size:14px;
+                    } 
+                }
+        .pro{
+        background-color:$background-prod;
+        padding-top: 5px;
+        padding-bottom: 5px;
+            
+            
+            .img-pro-full{
+                width: 90%;
+                height: 90%;
+                margin-bottom: 5px;
+                }
+            
+            .caracte{
+                font-size: 12px;
+                margin-bottom: 4px;
+                
+                ul{
+                    li{
+                        color:darkblue;
+                        margin-bottom: 10px;
+                        }
+                    }
+                }
+            }
+        
+        }
+            
+      }  
+      
+      #volver{
+        .container{
+            padding-top: 10px;
+          
+            }
+      } 
+
 }
 
